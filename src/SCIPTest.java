@@ -14,13 +14,13 @@ public class SCIPTest {
         System.out.println("Java Library Path: " + System.getProperty("java.library.path"));
 
         /*try {
-            System.load("C:\\Users\\elber\\intellij projects\\sciptest\\lib\\libscip.dll");
+            System.load("the absolute path to libscip.dll");
             System.out.println("libscip.dll loaded successfully.");
         } catch (UnsatisfiedLinkError e) {
             System.err.println("Error loading libscip.dll: " + e.getMessage());
         }
         try {
-            System.load("C:\\Users\\elber\\intellij projects\\sciptest\\lib\\libjscip.dll");
+            System.load("the absolute path yo libjscip.dll");
             System.out.println("libjscip.dll loaded successfully.");
         } catch (UnsatisfiedLinkError e) {
             System.err.println("Error loading libjscip.dll: " + e.getMessage());
