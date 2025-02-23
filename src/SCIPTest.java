@@ -39,7 +39,7 @@ public class SCIPTest {
         // Create a linear constraint: x + 2y <= 14
         Variable[] vars = {x, y};
         double[] coeffs = {1.0, 2.0};
-        Constraint cons = scip.createConsLinear("cons1", vars, coeffs, -Double.POSITIVE_INFINITY, 14.0);
+        Constraint cons = scip.createConsLinear("cons1", vars, coeffs, -Double.POSITIVE_INFINITY, 3.0);
 
         // Add the constraint to the model
         scip.addCons(cons);
